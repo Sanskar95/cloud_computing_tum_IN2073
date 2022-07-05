@@ -13,7 +13,7 @@ module.exports = function (options) {
         let bookPrice = null; 
         for(let i=0; i < mockData.length; i++)
         {
-            if (mockData[i].product_id === productId)
+            if (mockData[i].product_id == productId)
             {
                 bookPrice = mockData[i].product_price;
             }

@@ -12,7 +12,7 @@
  /**
   * To DO: Define Service Method
   */
- const PRODUCT_PRICE = { role: 'product', cmd: 'getProductPrice' };
+ const GET_PRODUCT_PRICE = { role: 'product', cmd: 'getProductPrice' };
  
  /**
   * To DO: Call Service Method
@@ -22,7 +22,7 @@
      /**
       * To DO: Write act Method
       */
-     return act(Object.assign({}, PRODUCT_PRICE, { productId }));
+     return act(Object.assign({}, GET_PRODUCT_PRICE, { productId }));
  };
  module.exports = {
      getProductPrice

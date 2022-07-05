@@ -29,7 +29,7 @@ module.exports = function (options) {
         let bookURL = null; 
         for(let i=0; i < mockData.length; i++)
         {
-            if (mockData[i].product_id === productId)
+            if (mockData[i].product_id == productId)
             {
                 bookURL = mockData[i].product_url;
             }
@@ -43,7 +43,7 @@ module.exports = function (options) {
         var bookName = null; 
         for(var i=0; i < mockData.length; i++)
         {
-            if (mockData[i].product_id === productId)
+            if (mockData[i].product_id == productId)
             {
                 bookName = mockData[i].product_name;
             }
